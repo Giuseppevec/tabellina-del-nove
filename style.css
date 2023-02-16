@@ -1,0 +1,25 @@
+main {display: flex;}
+main > * {border: 1px solid;}
+table {border-collapse: collapse; font-family: helvetica}
+td, th {border:  1px solid;
+      padding: 10px;
+      min-width: 200px;
+      background: #ffffff;
+      box-sizing: border-box;
+      text-align: left;
+}
+thead th {
+  
+  background: hsl(20, 100%, 48%);
+}
+tr > :first-child {
+  position: -webkit-sticky;
+  position: sticky; 
+  background: hsl(192, 100%, 50%);
+  left: 0; 
+}
+tr > :first-child {
+  box-shadow: inset 0px 1px black;
+}
+
+
